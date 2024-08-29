@@ -13,6 +13,9 @@ Look after left pannel and find volume section and choose your volume you want t
 
 Step 2: Increase EBS Volume Size in AWS Console.
 
+Go to Ec2 section and find the storage attach to your ec2 instance that we need to modify.
+
+
 ![image](https://github.com/user-attachments/assets/91048292-80a4-498a-bd4e-c95ccd91221f)
 
 (I modified from 8GB to 16GB)
