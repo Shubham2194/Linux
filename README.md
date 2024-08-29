@@ -61,7 +61,8 @@ sudo resize2fs /dev/xvda1
 
 Step 7:
 
-Fire df-h / and see the EBS is modified to 20GB
+Fire 
+df-h / and see the EBS is modified to 20GB.
 
 ![image](https://github.com/user-attachments/assets/b0ab0cd2-0b55-4320-85f4-e27f5f7ac600)
 
