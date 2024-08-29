@@ -22,7 +22,9 @@ Go to Ec2 section and find the storage attach to your ec2 instance that we need 
 
 
 Step 3: Extend a Linux file system after resizing a volume.
+
 Now SSH to your ec2 instance and check volume.
+
 Check the type of our volume and where it is attached to using:
 df -hT
 
