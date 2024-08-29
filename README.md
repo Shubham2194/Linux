@@ -27,16 +27,23 @@ df -hT
 
 
 Step 4 :Check whether the volume has a partition:
+
 sudo lsblk
 
 ![image](https://github.com/user-attachments/assets/96e6fba7-4a94-41b6-ba06-98751739c2fe)
 
 (we can see we the partition here)
 
+
+
 Step 5: Extend the partition:
+
 sudo growpart /dev/xvda 1
 
+This will incase the partition size
+
 Step 6:
+
 Extend the file system on /:
 
 If your file system type is XFS use :
